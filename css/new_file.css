@@ -1,0 +1,31 @@
+h1{
+	color: rgb(255,0,255);
+}
+
+div{
+	height: 100px;
+	width: 100px;
+	border: 1px solid black;
+}
+
+#box2{
+	height: 200px;
+	width: 100px;
+	border: 1px solid black;
+}
+
+*{
+	font-family: "宋体";
+	margin: 0;
+	padding: 0;
+}
+
+
+.fff{
+	
+}
+
+img{
+	width: 200px;
+	height: 300px;
+}

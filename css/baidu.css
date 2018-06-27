@@ -1,0 +1,121 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+a{
+	font-size: 14px;
+}
+
+header{
+	height: 80px;
+	padding: 20px 10px 0 0;
+}
+
+header div#linkBox{
+	float: right;
+}
+
+header div#linkBox a{
+	display: inline-block;
+	margin-right: 10px;
+	font-weight: bold;
+	color: black;
+}
+
+header div#linkBox a.noBold{
+	font-weight: normal;
+}
+
+header div#linkBox a#more{
+	background: rgb(51,136,255);
+	color: white;
+	font-weight: normal;
+	text-decoration: none;
+	padding: 2px;
+}
+
+
+header div#linkBox a:hover{
+	color: red;
+}
+
+#logoBox{
+	height: 150px;
+	text-align: center;
+}
+
+#logoBox img{
+	width: 280px;
+}
+
+#inputBox{
+	
+	text-align: center;
+}
+
+#littleBox{
+	display: inline-block;
+	height: 39px;
+	width: 644px;
+	position: relative;
+}
+
+#littleBox input{
+	width: 540px;
+	height: 35px;
+}
+
+#littleBox button{
+	width: 100px;
+	height: 39px;
+	border: none;
+	background: rgb(51,136,255);
+	font-size: 16px;
+	color: #fff;
+	cursor:pointer;
+}
+
+#littleBox .camera{
+	display: block;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	right: 120px;
+	top: 12px;
+	cursor: pointer;
+	background-image: url(../img/相机.png);
+	background-size: 20px 20px;
+}
+
+#littleBox .camera:hover{
+	background-image: url(../img/camera-blue.png);
+}
+
+#bottom{
+	padding-top: 170px;
+	text-align: center;
+}
+
+#erweima span{
+	display: inline-block;
+	margin-top: -10px;
+		font-size: 12px;
+		cursor: pointer;
+}
+
+#dibushhuoming a{
+	color: #CCC;
+	margin-right: 20px;
+	font-size: 12px;
+}
+
+#dibushhuoming p.p2 a{
+	color: #CCC;
+	margin-right: 16px;
+	font-size: 12px;
+}
+
+.nohr{
+	text-decoration: none;
+}
